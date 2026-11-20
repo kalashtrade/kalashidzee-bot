@@ -124,7 +124,7 @@ def fmt_digest(pick):
     for i in pick:
         label = f"<b>{i['tag']}</b>" if i["tag"] else "Рынок"
         lines.append(f"{i['icon']} {label} · <a href=\"{html.escape(i['link'])}\">{html.escape(tr(i['title']))}</a> <i>({i['src']})</i>")
-    lines.append("\nЗаголовки переведены автоматически. Не финансовая рекомендация. kalashidzee trade")
+    lines.append("\nЗаголовки переведены автоматически.")
     return "\n".join(lines)
 
 
