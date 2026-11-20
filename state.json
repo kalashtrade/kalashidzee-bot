@@ -1,1 +1,9 @@
-{"open": [], "last_signal": {}, "stats": {"n": 0, "wins": 0, "r": 0.0}}
+{
+ "open": [],
+ "last_signal": {},
+ "stats": {
+  "n": 0,
+  "wins": 0,
+  "r": 0.0
+ }
+}
