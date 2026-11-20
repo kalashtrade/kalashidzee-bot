@@ -1,0 +1,28 @@
+name: backtest
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Сколько дней истории"
+        default: "90"
+      extra:
+        description: "Доп. параметры, например: --no-trend --max-range 6"
+        default: ""
+
+jobs:
+  bt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python backtest.py --days ${{ github.event.inputs.days }} ${{ github.event.inputs.extra }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: backtest-trades
+          path: backtest_trades.csv
