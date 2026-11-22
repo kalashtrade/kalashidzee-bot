@@ -131,8 +131,12 @@ def diagnose(sym, d):
         w = d.iloc[-1 - P.range_bars:-1]
         R, S_ = float(w["high"].max()), float(w["low"].min())
         row = d.iloc[-1]
-        print(f"{sym}: флэт {(R-S_)/S_*100:.1f}% (нужно ≤{P.max_range_pct}), объём ×{row['vol']/row['vol_ma']:.1f} (нужно ≥{P.vol_mult}), "
-              f"закрытие {row['close']:.4g} при потолке {R:.4g} / поле {S_:.4g}, EMA {row['ema']:.4g}")
+        need = []
+        if (R - S_) / S_ * 100 > P.max_range_pct: need.append("флэт шире нормы")
+        if row["vol"] / row["vol_ma"] < P.vol_mult: need.append("объём мал")
+        if not (row["close"] > R or row["close"] < S_): need.append("нет пробоя")
+        print(f"{sym}: флэт {(R-S_)/S_*100:.1f}% (нужно ≤{P.max_range_pct:g}), объём ×{row['vol']/row['vol_ma']:.1f} (нужно ≥{P.vol_mult:g}), "
+              f"цена {fp(float(row['close']))}, потолок {fp(R)}, пол {fp(S_)}, EMA {fp(float(row['ema']))}. Не хватает: {', '.join(need) or 'условия на грани'}")
     except Exception as e:
         print(sym, "диагностика не вышла:", e)
 
@@ -192,7 +196,7 @@ def main():
         s["hb"] = day
         pend = sum(1 for t in s["open"] if t["status"] == "pending"); opn = sum(1 for t in s["open"] if t["status"] == "open")
         st = s["stats"]
-        send(f"🤖 <b>kalashidzee trade</b>: бот работает. Проверяю {len(config.SYMBOLS)} монет каждые 15 минут.\n"
+        send(f"📊 <b>kalashidzee trade</b>: бот работает. Проверяю {len(config.SYMBOLS)} монет каждые 15 минут.\n"
              f"Сейчас: лимиток в ожидании {pend}, открытых сделок {opn}. Закрыто всего: {st['n']}, сумма {st['r']:+.1f}R.\n"
              f"Тишина между сигналами нормальна: нужны флэт, пробой и объём одновременно.")
     save(s)
