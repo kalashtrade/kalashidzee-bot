@@ -39,6 +39,13 @@
   "https://cointelegraph.com/opinion/future-onchain-fx-could-start-with-users-not-institutional-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
  ],
  "x_last": {},
- "pool": [],
+ "pool": [
+  {
+   "src": "CoinDesk",
+   "title": "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
+   "link": "https://www.coindesk.com/tech/2026/11/21/openai-anthropic-and-rivals-seek-ai-agent-rules-to-prevent-commerce-chaos",
+   "ts": 1795269600.0
+  }
+ ],
  "last_sent": "2026-11-22"
 }
