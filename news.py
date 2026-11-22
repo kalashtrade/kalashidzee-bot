@@ -29,9 +29,6 @@ COINS = [  # (метка, значок, regex)
     ("SOL", "🟣", r"\b(solana|sol)\b"),
     ("HYPE", "💧", r"\b(hyperliquid|hype)\b"),
 ]
-MAX_AGE_H = 6
-MAX_COIN_ITEMS = 6
-MAX_GENERAL = 2
 
 
 def send(text):
@@ -105,26 +102,49 @@ def fetch_rss():
     return items, bad
 
 
-def digest(items, seen):
-    now = time.time()
-    fresh = [i for i in items if i["link"] not in seen and now - i["ts"] < MAX_AGE_H * 3600]
-    fresh.sort(key=lambda i: -i["ts"])
-    coin, general = [], []
+IMPORTANT = re.compile(r"\b(sec|etf|hack(ed)?|exploit|ban(ned)?|approv\w+|lawsuit|sues?|listing|lists?|delist\w*|launch\w*|record|crash\w*|surge[sd]?|plunge[sd]?|soar\w*|liquidat\w*|bankrupt\w*|fed|rate|treasury|whale|upgrade|halving|airdrop|burn|stablecoin|regulat\w+|arrest\w*|binance|changpeng|cz)\b", re.I)
+SEND_HOUR_UTC = 15      # вечерний дайджест в 15:00 UTC (20:00 по UTC+5). Поменяй под себя.
+MAX_COIN_ITEMS = 8
+MAX_GENERAL = 2
+
+
+def score(title, tag_name):
+    sc = 3 if tag_name else 0
+    sc += min(3, len(IMPORTANT.findall(title)))
+    if tag_name in ("BNB", "BTC"):
+        sc += 1
+    return sc
+
+
+def words(t):
+    return set(re.findall(r"[a-z0-9]{4,}", t.lower()))
+
+
+def pick_digest(pool, now):
+    fresh = [i for i in pool if now - i["ts"] < 24 * 3600]
     for i in fresh:
-        name, icon = tag(i["title"])
-        i["tag"], i["icon"] = name, icon
-        (coin if name else general).append(i)
-    pick = coin[:MAX_COIN_ITEMS] + general[:MAX_GENERAL]
-    return pick
+        i["tag"], i["icon"] = tag(i["title"])
+        i["score"] = score(i["title"], i["tag"])
+    fresh.sort(key=lambda i: (-i["score"], -i["ts"]))
+    coin, general, taken = [], [], []
+    for i in fresh:
+        w = words(i["title"])
+        if any(len(w & t) / max(1, len(w | t)) > 0.5 for t in taken):  # почти дубль другой новости
+            continue
+        if i["tag"] and len(coin) < MAX_COIN_ITEMS:
+            coin.append(i); taken.append(w)
+        elif not i["tag"] and i["score"] > 0 and len(general) < MAX_GENERAL:
+            general.append(i); taken.append(w)
+    return coin + general
 
 
 def fmt_digest(pick):
-    t = time.strftime("%H:%M", time.gmtime())
-    lines = [f"📰 <b>Крипто-новости</b> · {t} UTC", ""]
+    d = time.strftime("%d.%m", time.gmtime())
+    lines = [f"📰 <b>Главное за день</b> · {d}", ""]
     for i in pick:
         label = f"<b>{i['tag']}</b>" if i["tag"] else "Рынок"
         lines.append(f"{i['icon']} {label} · <a href=\"{html.escape(i['link'])}\">{html.escape(tr(i['title']))}</a> <i>({i['src']})</i>")
-    lines.append("\nЗаголовки переведены автоматически.")
+    lines.append("\nЗаголовки переведены автоматически. Не финансовая рекомендация. kalashidzee trade")
     return "\n".join(lines)
 
 
@@ -173,14 +193,29 @@ def run_x(s):
 
 
 def main():
+    force = "--force" in sys.argv
     s = load()
+    s.setdefault("pool", []); s.setdefault("last_sent", "")
+    now = time.time()
     items, bad = fetch_rss()
-    pick = digest(items, set(s["seen"]))
-    if pick:
-        send(fmt_digest(pick))
-        s["seen"] = (s["seen"] + [i["link"] for i in pick])[-500:]
+    known = set(s["seen"]) | {p["link"] for p in s["pool"]}
+    for i in items:
+        if i["link"] not in known and now - i["ts"] < 36 * 3600:
+            s["pool"].append(i); known.add(i["link"])
+    s["pool"] = [p for p in s["pool"] if now - p["ts"] < 36 * 3600][-400:]
+    today = time.strftime("%Y-%m-%d", time.gmtime(now))
+    due = time.gmtime(now).tm_hour >= SEND_HOUR_UTC and s["last_sent"] != today
+    if due or force:
+        pick = pick_digest(s["pool"], now)
+        if pick:
+            send(fmt_digest(pick))
+            s["seen"] = (s["seen"] + [i["link"] for i in s["pool"]])[-800:]
+            s["pool"] = []
+        else:
+            print("Важных новостей для дайджеста нет")
+        s["last_sent"] = today
     else:
-        print("Новых важных новостей нет")
+        print(f"Собрано в пул: {len(s['pool'])}. Дайджест уйдёт в {SEND_HOUR_UTC}:00 UTC")
     run_x(s)
     json.dump(s, open(STATE, "w"), ensure_ascii=False, indent=1)
 
