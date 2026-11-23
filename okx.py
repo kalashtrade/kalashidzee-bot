@@ -62,3 +62,15 @@ def volumes_usdt():
         except Exception:
             pass
     return res
+
+
+def tickers():
+    """{instId: (последняя цена, суточный оборот в USDT)} по всем бессрочным контрактам, один запрос."""
+    out = {}
+    for t in _get("/api/v5/market/tickers", dict(instType="SWAP"), tries=2):
+        try:
+            last = float(t["last"])
+            out[t["instId"]] = (last, float(t["volCcy24h"]) * last)
+        except Exception:
+            pass
+    return out
