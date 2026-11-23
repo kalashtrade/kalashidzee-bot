@@ -54,10 +54,11 @@ def save(s):
 
 
 def levels_text(tr):
-    r = config.STRATEGY["tp_r"]; sp = config.STRATEGY["tp_split"]
-    return [f"TP1: {fp(tr['tps'][0])} ({r[0]:g}R, закрыть {sp[0]*100:.0f}%, стоп в безубыток)",
-            f"TP2: {fp(tr['tps'][1])} ({r[1]:g}R, {sp[1]*100:.0f}%)",
-            f"TP3: {fp(tr['tps'][2])} ({r[2]:g}R, {sp[2]*100:.0f}%)"]
+    sp = config.STRATEGY["tp_split"]
+    pct = lambda p: abs(p - tr["entry"]) / tr["entry"] * 100
+    return [f"TP1: {fp(tr['tps'][0])} (+{pct(tr['tps'][0]):.2f}%, закрыть {sp[0]*100:.0f}%, стоп в безубыток)",
+            f"TP2: {fp(tr['tps'][1])} (+{pct(tr['tps'][1]):.2f}%, {sp[1]*100:.0f}%)",
+            f"TP3: {fp(tr['tps'][2])} (+{pct(tr['tps'][2]):.2f}%, {sp[2]*100:.0f}%)"]
 
 
 def size_line(stop_pct):
@@ -71,14 +72,14 @@ def fmt_pending(sym, pd_):
     long = pd_["side"] == "long"
     head = "🟢 ЛИМИТНЫЙ ЛОНГ" if long else "🔴 ЛИМИТНЫЙ ШОРТ"
     lv = "потолок" if long else "пол"
-    lines = [f"{head} <b>{sym}/USDT</b> · пробой флэта (1ч) + ретест",
+    lines = [f"{head} <b>{sym}/USDT</b>" + (" · пробой флэта (1ч) + ретест" if config.SHOW_DETAILS else ""),
              f"Поставь лимитку: <b>{fp(pd_['entry'])}</b> ({'купить' if long else 'продать'})",
-             f"Стоп: <b>{fp(pd_['stop'])}</b> ({pd_['stop_pct']:.2f}% от входа)", *levels_text(pd_), "",
-             f"Почему: часовая свеча закрылась за {lv} флэта {fp(pd_['level'])} (флэт {pd_['range_pct']:.1f}% за 24ч), "
-             f"объём ×{pd_['vol_x']:.1f}, тренд совпадает. Ждём возврата цены к уровню.",
-             f"⏳ Лимитка действует до {hhmm(pd_['expire_ts'])} UTC. Не исполнилась до этого времени или цена ушла к стопу: сделку пропускаем.",
-             *size_line(pd_["stop_pct"]),
-             "\nНе финансовая рекомендация. Риск на сделку не больше 1%."]
+             f"Стоп: <b>{fp(pd_['stop'])}</b> ({pd_['stop_pct']:.2f}% от входа)", *levels_text(pd_), ""]
+    if config.SHOW_DETAILS:
+        lines.append(f"Почему: часовая свеча закрылась за {lv} флэта {fp(pd_['level'])} (флэт {pd_['range_pct']:.1f}% за 24ч), "
+                     f"объём ×{pd_['vol_x']:.1f}, тренд совпадает. Ждём возврата цены к уровню.")
+    lines += [f"⏳ Лимитка действует до {hhmm(pd_['expire_ts'])} UTC. Не исполнилась или цена ушла к стопу: сделку пропускаем.",
+              "\nНе финансовая рекомендация. Торгуешь на свой риск. kalashidzee trade"]
     return "\n".join(lines)
 
 
@@ -121,7 +122,8 @@ def process(sym, df15, now_ms, s):
             send(f"⏱ <b>{sym}</b> {tr['side'].upper()}: прошло {config.MAX_HOLD_HOURS}ч, закрыто по рынку {fp(price)}")
         if tr["status"] == "open" and tr["closed"]:
             r = tr["r"]; st = s["stats"]; st["n"] += 1; st["wins"] += 1 if r > 0 else 0; st["r"] += r
-            send(f"📊 {sym} итог сделки: {r:+.2f}R. Всего у бота: {st['n']} сделок, плюс в {st['wins']} ({st['wins']/st['n']*100:.0f}%), сумма {st['r']:+.1f}R")
+            res = "в плюс" if r > 0.05 else ("в минус" if r < -0.05 else "в ноль")
+            send(f"📊 {sym} итог сделки: {res}. Всего: {st['n']} сделок, плюс в {st['wins']} ({st['wins']/st['n']*100:.0f}%)")
             s["open"] = [t for t in s["open"] if t is not tr]
 
 
@@ -156,9 +158,15 @@ def find_signal(sym, df1h, s, now_ms):
         if stop_pct < P.min_stop_pct or stop_pct > P.max_stop_pct:
             continue
         start = g["ts"] + H1
+        tps = [entry + sgn * risk * r for r in P.tp_r]   # цели считаем от исходного (узкого) расстояния
+        stop = g["stop"]
+        floor = getattr(config, "STOP_FLOOR_PCT", 0.0)
+        if floor and stop_pct < floor:                   # отодвигаем стоп минимум до floor % от входа
+            stop = entry - sgn * entry * floor / 100
+            stop_pct = floor
         print(f"{sym}: СИГНАЛ {g['side']}")
-        return dict(symbol=sym, status="pending", side=g["side"], level=g["level"], entry=entry, stop=g["stop"],
-                    stop_pct=stop_pct, tps=[entry + sgn * risk * r for r in P.tp_r], ts=g["ts"], start_ts=start,
+        return dict(symbol=sym, status="pending", side=g["side"], level=g["level"], entry=entry, stop=stop,
+                    stop_pct=stop_pct, tps=tps, ts=g["ts"], start_ts=start,
                     last_ts=start - 1, expire_ts=start + config.RETEST_WAIT_BARS * H1, vol_x=g["vol_x"], range_pct=g["range_pct"])
     diagnose(sym, d)
     return None
@@ -191,14 +199,6 @@ def main():
             s["last_signal"][f"{sym}_{pd_['side']}"] = pd_["ts"]
             s["open"].append(pd_)
             send(fmt_pending(sym, pd_))
-    day = time.strftime("%Y-%m-%d", time.gmtime(now_ms / 1000))
-    if time.gmtime(now_ms / 1000).tm_hour >= 9 and s.get("hb") != day:
-        s["hb"] = day
-        pend = sum(1 for t in s["open"] if t["status"] == "pending"); opn = sum(1 for t in s["open"] if t["status"] == "open")
-        st = s["stats"]
-        send(f"📊 <b>kalashidzee trade</b>: бот работает. Проверяю {len(config.SYMBOLS)} монет каждые 15 минут.\n"
-             f"Сейчас: лимиток в ожидании {pend}, открытых сделок {opn}. Закрыто всего: {st['n']}, сумма {st['r']:+.1f}R.\n"
-             f"Тишина между сигналами нормальна: нужны флэт, пробой и объём одновременно.")
     save(s)
 
 
