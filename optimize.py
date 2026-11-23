@@ -58,7 +58,7 @@ def candidates(d, p):
     return out
 
 
-def run_pair(d, p, retest, max_hold, lo, hi):
+def run_pair(d, p, retest, max_hold, lo, hi, floor=0.0):
     """Прогон по куску истории [lo, hi). Возвращает список R сделок."""
     H, L, C, T = d["high"].to_numpy(), d["low"].to_numpy(), d["close"].to_numpy(), d["ts"].to_numpy()
     res, busy = [], -1
@@ -87,6 +87,9 @@ def run_pair(d, p, retest, max_hold, lo, hi):
         if stop_pct < p.min_stop_pct or stop_pct > p.max_stop_pct:
             continue
         tps = [entry + sgn * risk * r for r in p.tp_r]
+        if floor and stop_pct < floor:
+            stop = entry - sgn * entry * floor / 100
+            stop_pct = floor
         t = Trade(dict(side=side, entry=entry, stop=stop, tps=tps, ts=int(T[start])), p)
         last = min(len(d) - 1, start + max_hold)
         j = start
