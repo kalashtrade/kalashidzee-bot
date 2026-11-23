@@ -123,6 +123,24 @@
    "title": "Spot bitcoin ETFs shed $1.8 billion in past week as outflows become ‘structural’: analysts",
    "link": "https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857",
    "ts": 1795412841.0
+  },
+  {
+   "src": "CoinDesk",
+   "title": "Crypto thieves are using online ads to infect iPhones with a single tap, research finds",
+   "link": "https://www.coindesk.com/tech/2026/11/23/moldyroost-malvertizing-campaign-uses-one-tap-iphone-hacks-to-hunt-crypto-wallet-keys-research-shows",
+   "ts": 1795419930.0
+  },
+  {
+   "src": "Cointelegraph",
+   "title": "‘MoldyRoost’ ads can steal crypto wallet recovery phrases from iPhones",
+   "link": "https://cointelegraph.com/news/moldyroost-malware-drain-iphone-wallets-one-tap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "ts": 1795424744.0
+  },
+  {
+   "src": "Cointelegraph",
+   "title": "Bitcoin ETFs shed $1.8B in third-largest weekly outflow",
+   "link": "https://cointelegraph.com/markets/bitcoin-etfs-third-largest-weekly-outflows-1-8-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "ts": 1795421332.0
   }
  ],
  "last_sent": "2026-11-22"
