@@ -96,6 +96,43 @@
   "https://www.theblock.co/news/markets/2026-11-23-bitcoin-crypto-tech-stocks-rally-nvidia-reinstates-jensen-huang-ceo-nvda-jumps-444952"
  ],
  "x_last": {},
- "pool": [],
+ "pool": [
+  {
+   "src": "CoinDesk",
+   "title": "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
+   "link": "https://www.coindesk.com/business/2026/11/23/cathie-wood-s-ark-invest-pulls-the-plug-on-two-planned-crypto-etfs",
+   "ts": 1795451943.0
+  },
+  {
+   "src": "Cointelegraph",
+   "title": "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
+   "link": "https://cointelegraph.com/markets/bitcoin-rebounds-lows-nvidia-rally-sparks-500m-crypto-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "ts": 1795452677.0
+  },
+  {
+   "src": "Cointelegraph",
+   "title": "Cross River Bank enters Bitcoin-backed lending with $250K loans",
+   "link": "https://cointelegraph.com/news/cross-river-bank-bitcoin-backed-lending-250k-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "ts": 1795451017.0
+  },
+  {
+   "src": "Cointelegraph",
+   "title": "How market depth shapes the price of a weekend Bitcoin sale",
+   "link": "https://cointelegraph.com/news/how-market-depth-shapes-the-price-of-a-weekend-bitcoin-sale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "ts": 1795449475.0
+  },
+  {
+   "src": "Decrypt",
+   "title": "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More",
+   "link": "https://decrypt.co/383800/tom-lee-ethereum-scarce-bitcoin-bitmine-buys-more",
+   "ts": 1795452363.0
+  },
+  {
+   "src": "Decrypt",
+   "title": "Bitcoin Rallies, Anthropic Sinks as Nvidia Surges 35% on Jensen Huang’s Return",
+   "link": "https://decrypt.co/383801/bitcoin-rallies-anthropic-sinks-as-nvidia-surges-35-on-jensen-huangs-return",
+   "ts": 1795451524.0
+  }
+ ],
  "last_sent": "2026-11-23"
 }
