@@ -1,8 +1,6 @@
 name: signals
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"   # каждые 15 минут (GitHub может опаздывать на несколько минут)
   workflow_dispatch: {}       # ручной запуск кнопкой
 
 permissions:
