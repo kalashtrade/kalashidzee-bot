@@ -28,6 +28,11 @@ def send(text):
         print("Telegram error:", r.text)
 
 
+def log(text):
+    """События, которые не шлём в Telegram (видны только в логе GitHub)."""
+    print("[лог]", text.replace("<b>", "").replace("</b>", ""))
+
+
 def fp(x):
     if x >= 1000: return f"{x:,.1f}".replace(",", " ")
     if x >= 10: return f"{x:.2f}"
@@ -84,6 +89,7 @@ def fmt_pending(sym, pd_):
 
 
 def process(sym, df15, now_ms, s):
+    """Ведём лимитки и сделки. В Telegram уходит только одно: сработал стоп-лосс."""
     for tr in [t for t in s["open"] if t["symbol"] == sym]:
         removed = False
         for row in df15[df15["ts"] > tr["last_ts"]].itertuples():
@@ -91,10 +97,10 @@ def process(sym, df15, now_ms, s):
             if tr["status"] == "pending":
                 long = tr["side"] == "long"
                 if ts >= tr["expire_ts"]:
-                    send(f"⌛ <b>{sym}</b> {tr['side'].upper()}: лимитка на {fp(tr['entry'])} не исполнилась за 8 часов, сделку пропускаем")
+                    log(f"{sym} {tr['side']}: лимитка не исполнилась, сделку пропускаем")
                     removed = True; break
                 if (long and l <= tr["stop"]) or ((not long) and h >= tr["stop"]):
-                    send(f"🚫 <b>{sym}</b> {tr['side'].upper()}: цена дошла до стопа {fp(tr['stop'])} без входа, ордер отменяем")
+                    log(f"{sym} {tr['side']}: цена дошла до стопа без входа, ордер отменён")
                     removed = True; break
                 touched = (long and l <= tr["entry"]) or ((not long) and h >= tr["entry"])
                 if touched:
@@ -102,28 +108,26 @@ def process(sym, df15, now_ms, s):
                                      stop_pct=tr["stop_pct"], level=tr["level"]), P, sym).d
                     new["status"] = "open"
                     tr.clear(); tr.update(new)
-                    send(f"✅ <b>{sym}</b> {tr['side'].upper()}: лимитка исполнена по {fp(tr['entry'])}. Сделка открыта. Стоп {fp(tr['stop'])}, TP1 {fp(tr['tps'][0])}")
+                    log(f"{sym} {tr['side']}: лимитка исполнена по {fp(tr['entry'])}")
                 else:
                     tr["last_ts"] = ts
                 continue
             T = Trade.from_dict(tr)
             for name, price in T.on_bar(ts, h, l, c):
-                icon = {"SL": "❌", "BE": "⚪", "TP1": "✅", "TP2": "✅✅", "TP3": "🏆"}[name]
-                msg = {"SL": "стоп сработал", "BE": "остаток закрыт в безубыток", "TP1": "первая цель, стоп переносим в безубыток",
-                       "TP2": "вторая цель", "TP3": "третья цель, сделка закрыта"}[name]
-                send(f"{icon} <b>{sym}</b> {tr['side'].upper()}: {msg} на {fp(price)}")
+                if name == "SL":
+                    send(f"❌ <b>{sym}</b> {tr['side'].upper()}: сработал стоп-лосс на {fp(price)}")
+                else:
+                    log(f"{sym} {tr['side']}: {name} на {fp(price)}")
             if T.d["closed"]:
                 break
         if removed:
             s["open"] = [t for t in s["open"] if t is not tr]
             continue
         if tr["status"] == "open" and not tr["closed"] and now_ms - tr["ts"] > config.MAX_HOLD_HOURS * 3600 * 1000:
-            T = Trade.from_dict(tr); price = float(df15.iloc[-1]["close"]); T.force_close(price)
-            send(f"⏱ <b>{sym}</b> {tr['side'].upper()}: прошло {config.MAX_HOLD_HOURS}ч, закрыто по рынку {fp(price)}")
+            T = Trade.from_dict(tr); T.force_close(float(df15.iloc[-1]["close"]))
+            log(f"{sym} {tr['side']}: прошло {config.MAX_HOLD_HOURS}ч, сделка закрыта по рынку")
         if tr["status"] == "open" and tr["closed"]:
             r = tr["r"]; st = s["stats"]; st["n"] += 1; st["wins"] += 1 if r > 0 else 0; st["r"] += r
-            res = "в плюс" if r > 0.05 else ("в минус" if r < -0.05 else "в ноль")
-            send(f"📊 {sym} итог сделки: {res}. Всего: {st['n']} сделок, плюс в {st['wins']} ({st['wins']/st['n']*100:.0f}%)")
             s["open"] = [t for t in s["open"] if t is not tr]
 
 
