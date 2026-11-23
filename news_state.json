@@ -42,12 +42,6 @@
  "pool": [
   {
    "src": "CoinDesk",
-   "title": "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
-   "link": "https://www.coindesk.com/tech/2026/11/21/openai-anthropic-and-rivals-seek-ai-agent-rules-to-prevent-commerce-chaos",
-   "ts": 1795269600.0
-  },
-  {
-   "src": "CoinDesk",
    "title": "More on the pending oversight hearings: State of Crypto",
    "link": "https://www.coindesk.com/",
    "ts": 1795375800.0
@@ -75,6 +69,12 @@
    "title": "A $2 million exploit leads to a $3.7 million free-for-all as traders empty Fusionist’s ACE bridge",
    "link": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838",
    "ts": 1795389428.0
+  },
+  {
+   "src": "Cointelegraph",
+   "title": "Half of wallets on Trump’s dinner list got tokens from non-US exchanges",
+   "link": "https://cointelegraph.com/news/half-wallets-trumps-dinner-list-got-tokens-from-non-us-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "ts": 1795395229.0
   }
  ],
  "last_sent": "2026-11-22"
