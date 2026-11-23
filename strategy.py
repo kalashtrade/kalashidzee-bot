@@ -109,7 +109,8 @@ class Trade:
             if not reached:
                 break
             w = d["split"][d["hit"]]
-            d["r"] += w * d["tp_r"][d["hit"]]
+            risk_px = abs(d["entry"] - d["stop"])
+            d["r"] += w * (1 if long else -1) * (tp - d["entry"]) / risk_px
             d["remaining"] = round(d["remaining"] - w, 10)
             d["hit"] += 1
             ev.append((f"TP{d['hit']}", tp))
