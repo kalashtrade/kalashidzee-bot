@@ -93,436 +93,82 @@
   "https://www.coindesk.com/business/2026/11/23/eric-trump-backed-american-bitcoin-secures-usd150-million-loan-against-its-bitcoin",
   "https://www.theblock.co/news/markets/2026-11-23-defi-development-dfdv-solana-treasury-11-consecutive-weeks-444950",
   "https://www.theblock.co/news/business/2026-11-23-bitmine-adds-7819-eth-tom-lee-makes-hard-money-case-444948",
-  "https://www.theblock.co/news/markets/2026-11-23-bitcoin-crypto-tech-stocks-rally-nvidia-reinstates-jensen-huang-ceo-nvda-jumps-444952"
+  "https://www.theblock.co/news/markets/2026-11-23-bitcoin-crypto-tech-stocks-rally-nvidia-reinstates-jensen-huang-ceo-nvda-jumps-444952",
+  "https://www.coindesk.com/business/2026/11/23/cathie-wood-s-ark-invest-pulls-the-plug-on-two-planned-crypto-etfs",
+  "https://cointelegraph.com/markets/bitcoin-rebounds-lows-nvidia-rally-sparks-500m-crypto-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/news/cross-river-bank-bitcoin-backed-lending-250k-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/news/how-market-depth-shapes-the-price-of-a-weekend-bitcoin-sale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/383800/tom-lee-ethereum-scarce-bitcoin-bitmine-buys-more",
+  "https://decrypt.co/383801/bitcoin-rallies-anthropic-sinks-as-nvidia-surges-35-on-jensen-huangs-return",
+  "https://www.coindesk.com/policy/2026/11/23/new-york-judge-declines-to-block-kalshi-from-operating-in-the-state-for-now",
+  "https://www.coindesk.com/business/2026/11/23/nvidia-s-jensen-huang-faces-senate-scrutiny-despite-trump-backed-return-as-ceo",
+  "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebound-already-losing-steam-as-ai-trade-returns-with-a-bank",
+  "https://cointelegraph.com/news/cuomo-rivals-urged-companies-reject-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/383820/jensen-huang-returns-nvidia-memes-gpu-jesus",
+  "https://decrypt.co/383818/solo-bitcoin-miner-scores-again-191000-jackpot",
+  "https://decrypt.co/resources/perps-and-swaps-how-to-trade-the-news-on-decrypt",
+  "https://decrypt.co/383815/jensen-huang-fortune-37-billion-nvidia-soars-short-sellers-rekt",
+  "https://www.theblock.co/news/regulation/2026-11-23-cftc-prediction-market-rules-advance-white-house-review-amid-state-federal-jurisdiction-fight-445384",
+  "https://www.theblock.co/news/defi/2026-11-23-sky-cofounder-weighs-sky-sale-repay-77-million-stusds-pool-runs-dry-445373",
+  "https://cointelegraph.com/news/btcs-offloads-44m-eth-reduce-defi-debt-market-downturn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/interview/base-quantum-security-2027-priority-regulators-warn-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/news/kalshi-temporary-win-new-york-gambling-law-dispute?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers",
+  "https://decrypt.co/383841/why-nvidia-needed-jensen-huang-back-what-return-changes",
+  "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
+  "https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/383846/why-one-math-proof-ai-experts-warning-humans-lose-control",
+  "https://decrypt.co/383848/openai-will-pay-8k-preach-ai-gospel-small-businesses",
+  "https://www.theblock.co/news/markets/2026-11-23-grayscale-bitcoin-altcoins-oversold-ai-risks-crypto-outlook-445418",
+  "https://www.theblock.co/news/business/2026-11-23-grayscale-launches-2x-zcash-etf-three-months-spot-fund-debut-445407",
+  "https://decrypt.co/383851/chinas-zai-new-ai-model-glm-think-like-four-times-size",
+  "https://www.coindesk.com/policy/2026/11/23/u-s-cftc-sets-policies-on-event-contract-data-using-crypto-to-check-financial-boxes",
+  "https://cointelegraph.com/news/ethereum-foundation-doubles-protocol-security-team-amid-ai-quantum-overhaul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://www.theblock.co/news/regulation/2026-11-23-cftc-staff-bitcoin-ether-count-toward-derivatives-firms-operating-expenses-445435",
+  "https://cointelegraph.com/news/google-wants-make-you-star-your-own-ai-slop-movies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://www.theblock.co/news/markets/2026-11-23-california-court-terminates-lawsuit-coinbase-terrausd-445448",
+  "https://www.theblock.co/news/regulation/2026-11-23-kalshi-pauses-operations-utah-dodging-ban-new-york-445456",
+  "https://cointelegraph.com/markets/why-42-macro-says-its-waiting-to-buy-the-bitcoin-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://www.theblock.co/news/markets/2026-11-24-bitcoin-60000-jensen-huang-fizzles-445472",
+  "https://www.theblock.co/newsletters/the-daily/2026-11-24-doj-binance-hack-strategy-bitcoin-more-crypto-news-445430",
+  "https://cointelegraph.com/markets/bitcoin-etfs-bleed-ibit-shares-gain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/markets/bitcoin-dips-60k-gold-worst-60-day-loss-1980s?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple",
+  "https://www.coindesk.com/markets/2026/11/24/bitcoin-s-drop-to-usd55-000-left-a-record-11-6-million-btc-underwater",
+  "https://www.coindesk.com/policy/2026/11/24/u-s-seeks-usd1-1-billion-seized-in-binance-hack-as-north-korean-funds-keep-moving",
+  "https://www.coindesk.com/business/2026/11/24/btcs-sells-more-than-half-its-ether-to-repay-usd43-8-million-in-aave-debt",
+  "https://www.coindesk.com/policy/2026/11/24/south-korea-regulator-backs-bank-controlled-stablecoins-after-months-of-dispute",
+  "https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades",
+  "https://cointelegraph.com/markets/bitcoin-huangs-return-18-below-pre-resignation-levels?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/383853/trump-says-he-made-the-deal-to-reinstate-jensen-huang-sparking-bipartisan-backlash",
+  "https://www.theblock.co/news/regulation/2026-11-24-south-korea-new-crypto-bill-445494",
+  "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
+  "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
+  "https://www.coindesk.com/business/2026/11/24/jpmorgan-hsbc-and-stonex-complete-first-digital-gold-trades-in-london",
+  "https://cointelegraph.com/news/south-korea-draft-bill-crypto-innovation-user-protection?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/383860/gta-6-pc-ports-nuked-just-days-before-devs-expected-it-to-be-playable",
+  "https://decrypt.co/383854/14-7b-in-lost-bitcoin-has-moved-since-2018-report",
+  "https://www.theblock.co/learn/campus/crypto-market-structure-basics-442986",
+  "https://www.theblock.co/news/ecosystems/2026-11-24-ethereum-foundation-doubles-protocol-security-team-calls-ai-a-more-urgent-risk-than-quantum-445497",
+  "https://www.coindesk.com/policy/2026/11/24/south-korea-proposes-ending-2017-ico-ban-to-boost-jobs-and-onshore-crypto-investment",
+  "https://www.coindesk.com/markets/2026/11/24/a-wallet-linked-to-popular-crypto-trader-ansem-sold-usd2-million-in-memecoins-as-his-namesake-token-cratered",
+  "https://cointelegraph.com/news/russia-usdt-buyer-face-22-tax-december-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/news/swiss-central-bank-ubs-six-explore-ledger-tokenized-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/news/sky-community-proposes-50m-buybacks-stusds-liquidity-crisis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/markets/bitcoin-oversold-ai-risks-grayscale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/383874/justice-department-moves-to-forfeit-1-1b-in-usdc-from-north-koreas-binance-hack",
+  "https://decrypt.co/383857/certik-trains-interpol-investigators-to-trace-and-freeze-stolen-crypto",
+  "https://decrypt.co/383868/morning-minute-jensen-returns-markets-soar-except-crypto",
+  "https://www.theblock.co/news/markets/2026-11-24-bitcoin-etfs-another-570-million-net-outflows-november-total-nears-5-billion-btc-dips-below-60k-445548",
+  "https://www.theblock.co/news/markets/2026-11-24-xrpl-dex-volume-q3-2026-evernorth-report-445395",
+  "https://www.theblock.co/news/business/2026-11-24-ledn-launches-us-custody-account-bitcoin-gold-stablecoins-lending-445411",
+  "https://www.theblock.co/news/markets/2026-11-24-neuberger-berman-tokenized-hinc-fund-aave-horizon-collateral-445391",
+  "https://www.theblock.co/news/business/2026-11-24-blackrock-opens-tokenized-money-market-fund-with-100-million-in-assets-to-hong-kong-investors-445524",
+  "https://www.coindesk.com/business/2026/11/24/anchorage-digital-to-unveil-new-asset-management-subsidiary",
+  "https://www.theblock.co/news/business/2026-11-24-ethereum-treasury-firm-btcs-sells-43-8-million-eth-cut-aave-debt-ceo-says-we-do-not-take-this-lightly-445562"
  ],
  "x_last": {},
- "pool": [
-  {
-   "src": "CoinDesk",
-   "title": "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
-   "link": "https://www.coindesk.com/business/2026/11/23/cathie-wood-s-ark-invest-pulls-the-plug-on-two-planned-crypto-etfs",
-   "ts": 1795451943.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
-   "link": "https://cointelegraph.com/markets/bitcoin-rebounds-lows-nvidia-rally-sparks-500m-crypto-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795452677.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Cross River Bank enters Bitcoin-backed lending with $250K loans",
-   "link": "https://cointelegraph.com/news/cross-river-bank-bitcoin-backed-lending-250k-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795451017.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "How market depth shapes the price of a weekend Bitcoin sale",
-   "link": "https://cointelegraph.com/news/how-market-depth-shapes-the-price-of-a-weekend-bitcoin-sale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795449475.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More",
-   "link": "https://decrypt.co/383800/tom-lee-ethereum-scarce-bitcoin-bitmine-buys-more",
-   "ts": 1795452363.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Bitcoin Rallies, Anthropic Sinks as Nvidia Surges 35% on Jensen Huang’s Return",
-   "link": "https://decrypt.co/383801/bitcoin-rallies-anthropic-sinks-as-nvidia-surges-35-on-jensen-huangs-return",
-   "ts": 1795451524.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "New York judge declines to block Kalshi from operating in the state for now",
-   "link": "https://www.coindesk.com/policy/2026/11/23/new-york-judge-declines-to-block-kalshi-from-operating-in-the-state-for-now",
-   "ts": 1795458123.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO",
-   "link": "https://www.coindesk.com/business/2026/11/23/nvidia-s-jensen-huang-faces-senate-scrutiny-despite-trump-backed-return-as-ceo",
-   "ts": 1795457525.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
-   "link": "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebound-already-losing-steam-as-ai-trade-returns-with-a-bank",
-   "ts": 1795455087.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Cuomo says rivals urged companies to opt out of OKXICE tokenized stocks",
-   "link": "https://cointelegraph.com/news/cuomo-rivals-urged-companies-reject-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795455738.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "GPU Jesus Has Risen: Jensen Huang’s Nvidia Comeback Gets a Meme Parade",
-   "link": "https://decrypt.co/383820/jensen-huang-returns-nvidia-memes-gpu-jesus",
-   "ts": 1795459521.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Solo Bitcoin Miner Scores Again, Hitting $191,000 Jackpot Against the Odds",
-   "link": "https://decrypt.co/383818/solo-bitcoin-miner-scores-again-191000-jackpot",
-   "ts": 1795457785.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Perps and Swaps: How to Trade the News on Decrypt",
-   "link": "https://decrypt.co/resources/perps-and-swaps-how-to-trade-the-news-on-decrypt",
-   "ts": 1795457745.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Jensen Huang’s Wealth Rises $36 Billion as Nvidia Surge Burns Short Sellers for $12 Billion",
-   "link": "https://decrypt.co/383815/jensen-huang-fortune-37-billion-nvidia-soars-short-sellers-rekt",
-   "ts": 1795454888.0
-  },
-  {
-   "src": "The Block",
-   "title": "CFTC prediction market rules advance to White House review amid state-federal jurisdiction fight",
-   "link": "https://www.theblock.co/news/regulation/2026-11-23-cftc-prediction-market-rules-advance-white-house-review-amid-state-federal-jurisdiction-fight-445384",
-   "ts": 1795458609.0
-  },
-  {
-   "src": "The Block",
-   "title": "Sky cofounder weighs SKY sale to repay $77 million as stUSDS pool runs dry",
-   "link": "https://www.theblock.co/news/defi/2026-11-23-sky-cofounder-weighs-sky-sale-repay-77-million-stusds-pool-runs-dry-445373",
-   "ts": 1795455110.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn",
-   "link": "https://cointelegraph.com/news/btcs-offloads-44m-eth-reduce-defi-debt-market-downturn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795462506.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Base makes quantum security a 2027 priority as regulators warn of risks",
-   "link": "https://cointelegraph.com/interview/base-quantum-security-2027-priority-regulators-warn-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795461406.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Kalshi secures temporary win in New York gambling law dispute",
-   "link": "https://cointelegraph.com/news/kalshi-temporary-win-new-york-gambling-law-dispute?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795466323.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "North Korea Moves $247 Million of Binance Hack Loot Through Bitcoin Mixers",
-   "link": "https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers",
-   "ts": 1795466162.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Why Nvidia Needed Jensen Huang Back—And What His Return Really Changes",
-   "link": "https://decrypt.co/383841/why-nvidia-needed-jensen-huang-back-what-return-changes",
-   "ts": 1795463841.0
-  },
-  {
-   "src": "The Block",
-   "title": "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens",
-   "link": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
-   "ts": 1795464034.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack",
-   "link": "https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795467843.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Why One Math Proof Has AI Experts Warning Humans Might Soon Lose Control",
-   "link": "https://decrypt.co/383846/why-one-math-proof-ai-experts-warning-humans-lose-control",
-   "ts": 1795468563.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "OpenAI Will Pay You Up to $8K to Preach the AI Gospel to Small Businesses",
-   "link": "https://decrypt.co/383848/openai-will-pay-8k-preach-ai-gospel-small-businesses",
-   "ts": 1795470363.0
-  },
-  {
-   "src": "The Block",
-   "title": "Grayscale says bitcoin and major altcoins look ‘oversold’ as AI risks cloud near-term outlook",
-   "link": "https://www.theblock.co/news/markets/2026-11-23-grayscale-bitcoin-altcoins-oversold-ai-risks-crypto-outlook-445418",
-   "ts": 1795472282.0
-  },
-  {
-   "src": "The Block",
-   "title": "Grayscale’s new 2x leveraged Zcash ETF takes 13% opening day tumble",
-   "link": "https://www.theblock.co/news/business/2026-11-23-grayscale-launches-2x-zcash-etf-three-months-spot-fund-debut-445407",
-   "ts": 1795472112.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "China's Z.ai Says Its New AI Model Can Think Like One Four Times Its Size",
-   "link": "https://decrypt.co/383851/chinas-zai-new-ai-model-glm-think-like-four-times-size",
-   "ts": 1795475162.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
-   "link": "https://www.coindesk.com/policy/2026/11/23/u-s-cftc-sets-policies-on-event-contract-data-using-crypto-to-check-financial-boxes",
-   "ts": 1795479904.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Ethereum Foundation doubles protocol security team ahead of overhaul",
-   "link": "https://cointelegraph.com/news/ethereum-foundation-doubles-protocol-security-team-amid-ai-quantum-overhaul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795480586.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "CFTC staff say exchanges can count Bitcoin toward operating reserves",
-   "link": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795477414.0
-  },
-  {
-   "src": "The Block",
-   "title": "CFTC staff say bitcoin, ether can count toward derivatives firms’ operating expenses",
-   "link": "https://www.theblock.co/news/regulation/2026-11-23-cftc-staff-bitcoin-ether-count-toward-derivatives-firms-operating-expenses-445435",
-   "ts": 1795480402.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Google wants to make you the star of your own AI slop movies",
-   "link": "https://cointelegraph.com/news/google-wants-make-you-star-your-own-ai-slop-movies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795490002.0
-  },
-  {
-   "src": "The Block",
-   "title": "California court terminates lawsuit against Coinbase over TerraUSD purchases",
-   "link": "https://www.theblock.co/news/markets/2026-11-23-california-court-terminates-lawsuit-coinbase-terrausd-445448",
-   "ts": 1795489545.0
-  },
-  {
-   "src": "The Block",
-   "title": "Kalshi halts operations in Utah while dodging immediate ban in New York",
-   "link": "https://www.theblock.co/news/regulation/2026-11-23-kalshi-pauses-operations-utah-dodging-ban-new-york-445456",
-   "ts": 1795494482.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Why 42 Macro says it’s waiting to buy the Bitcoin dip",
-   "link": "https://cointelegraph.com/markets/why-42-macro-says-its-waiting-to-buy-the-bitcoin-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795496850.0
-  },
-  {
-   "src": "The Block",
-   "title": "Bitcoin slips back toward $60,000 as Jensen Huang’s Nvidia return rally fizzles",
-   "link": "https://www.theblock.co/news/markets/2026-11-24-bitcoin-60000-jensen-huang-fizzles-445472",
-   "ts": 1795501294.0
-  },
-  {
-   "src": "The Block",
-   "title": "DOJ moves to recover $1.17 billion from Binance hack, Strategy buys another 457 BTC, and more",
-   "link": "https://www.theblock.co/newsletters/the-daily/2026-11-24-doj-binance-hack-strategy-bitcoin-more-crypto-news-445430",
-   "ts": 1795498800.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
-   "link": "https://cointelegraph.com/markets/bitcoin-etfs-bleed-ibit-shares-gain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795506110.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Bitcoin dips back under $60K as gold seals worst 60-day loss since 1980s",
-   "link": "https://cointelegraph.com/markets/bitcoin-dips-60k-gold-worst-60-day-loss-1980s?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795512345.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Bitcoin hands back Monday's Nvidia-driven gains, liquidations triple",
-   "link": "https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple",
-   "ts": 1795519916.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Bitcoin’s drop to $55,000 left a record 11.6 million BTC underwater",
-   "link": "https://www.coindesk.com/markets/2026/11/24/bitcoin-s-drop-to-usd55-000-left-a-record-11-6-million-btc-underwater",
-   "ts": 1795518698.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "U.S. seeks $1.1 billion seized in Binance hack as North Korean funds keep moving",
-   "link": "https://www.coindesk.com/policy/2026/11/24/u-s-seeks-usd1-1-billion-seized-in-binance-hack-as-north-korean-funds-keep-moving",
-   "ts": 1795517931.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "BTCS sells more than half its ether to repay $43.8 million in Aave debt",
-   "link": "https://www.coindesk.com/business/2026/11/24/btcs-sells-more-than-half-its-ether-to-repay-usd43-8-million-in-aave-debt",
-   "ts": 1795517730.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "South Korea regulator backs bank-controlled stablecoins after months of dispute",
-   "link": "https://www.coindesk.com/policy/2026/11/24/south-korea-regulator-backs-bank-controlled-stablecoins-after-months-of-dispute",
-   "ts": 1795516154.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Bitcoin falls below $60,000 as rally on Jensen Huang’s Nvidia return fades",
-   "link": "https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades",
-   "ts": 1795514918.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Bitcoin dipped on Huang’s Nvidia exit but jumped 5% on his return",
-   "link": "https://cointelegraph.com/markets/bitcoin-huangs-return-18-below-pre-resignation-levels?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795520433.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Trump Says He 'Made the Deal' to Reinstate Jensen Huang, Sparking Bipartisan Backlash",
-   "link": "https://decrypt.co/383853/trump-says-he-made-the-deal-to-reinstate-jensen-huang-sparking-bipartisan-backlash",
-   "ts": 1795520113.0
-  },
-  {
-   "src": "The Block",
-   "title": "South Korea’s draft crypto bill sets path for domestic ICOs while capping exchange shareholder stakes at 20%",
-   "link": "https://www.theblock.co/news/regulation/2026-11-24-south-korea-new-crypto-bill-445494",
-   "ts": 1795519524.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Live updates: Bitcoin pulls back to $60,000 as stock rally fails to budge crypto",
-   "link": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
-   "ts": 1795524460.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
-   "link": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
-   "ts": 1795523788.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "JPMorgan, HSBC and StoneX complete first digital gold trades in London",
-   "link": "https://www.coindesk.com/business/2026/11/24/jpmorgan-hsbc-and-stonex-complete-first-digital-gold-trades-in-london",
-   "ts": 1795521879.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "South Korea proposes bank-led stablecoins, 20% cap on crypto exchange stakes",
-   "link": "https://cointelegraph.com/news/south-korea-draft-bill-crypto-innovation-user-protection?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795521856.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "GTA 6 PC Ports ‘Nuked’ Just Days Before Devs Expected It to Be Playable",
-   "link": "https://decrypt.co/383860/gta-6-pc-ports-nuked-just-days-before-devs-expected-it-to-be-playable",
-   "ts": 1795525290.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "$14.7B in ‘Lost’ Bitcoin Has Moved Since 2018: Report",
-   "link": "https://decrypt.co/383854/14-7b-in-lost-bitcoin-has-moved-since-2018-report",
-   "ts": 1795524047.0
-  },
-  {
-   "src": "The Block",
-   "title": "Crypto Market Structure Basics",
-   "link": "https://www.theblock.co/learn/campus/crypto-market-structure-basics-442986",
-   "ts": 1795524553.0
-  },
-  {
-   "src": "The Block",
-   "title": "Ethereum Foundation doubles protocol security team, calls AI a ‘more urgent risk’ than quantum",
-   "link": "https://www.theblock.co/news/ecosystems/2026-11-24-ethereum-foundation-doubles-protocol-security-team-calls-ai-a-more-urgent-risk-than-quantum-445497",
-   "ts": 1795521211.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment",
-   "link": "https://www.coindesk.com/policy/2026/11/24/south-korea-proposes-ending-2017-ico-ban-to-boost-jobs-and-onshore-crypto-investment",
-   "ts": 1795531253.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Crypto trader Ansem says his wallet was hacked as $2 million in memecoins were sold",
-   "link": "https://www.coindesk.com/markets/2026/11/24/a-wallet-linked-to-popular-crypto-trader-ansem-sold-usd2-million-in-memecoins-as-his-namesake-token-cratered",
-   "ts": 1795524469.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "USDT buyers face 22% VAT when Moscow Exchange opens crypto trading",
-   "link": "https://cointelegraph.com/news/russia-usdt-buyer-face-22-tax-december-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795529423.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Swiss central bank, UBS and SIX study ledger for tokenized settlement",
-   "link": "https://cointelegraph.com/news/swiss-central-bank-ubs-six-explore-ledger-tokenized-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795528676.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Sky lender proposes buyback of up to $50M to fund stUSDS withdrawals",
-   "link": "https://cointelegraph.com/news/sky-community-proposes-50m-buybacks-stusds-liquidity-crisis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795527826.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Grayscale calls Bitcoin ‘oversold’ at $62K but warns of AI risks",
-   "link": "https://cointelegraph.com/markets/bitcoin-oversold-ai-risks-grayscale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795525904.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Justice Department Moves to Forfeit $1.1B in USDC From North Korea's Binance Hack",
-   "link": "https://decrypt.co/383874/justice-department-moves-to-forfeit-1-1b-in-usdc-from-north-koreas-binance-hack",
-   "ts": 1795529583.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "CertiK Trains Interpol Investigators to Trace and Freeze Stolen Crypto",
-   "link": "https://decrypt.co/383857/certik-trains-interpol-investigators-to-trace-and-freeze-stolen-crypto",
-   "ts": 1795527963.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Morning Minute: Jensen Returns, Markets Soar (Except Crypto)",
-   "link": "https://decrypt.co/383868/morning-minute-jensen-returns-markets-soar-except-crypto",
-   "ts": 1795525669.0
-  },
-  {
-   "src": "The Block",
-   "title": "Bitcoin ETFs see another $570 million in net outflows as November total nears $5 billion and BTC dips below $60K",
-   "link": "https://www.theblock.co/news/markets/2026-11-24-bitcoin-etfs-another-570-million-net-outflows-november-total-nears-5-billion-btc-dips-below-60k-445548",
-   "ts": 1795530741.0
-  },
-  {
-   "src": "The Block",
-   "title": "XRP Ledger DEX volume hits 4.51 million XRP a day in Q3 as big traders take over: Evernorth",
-   "link": "https://www.theblock.co/news/markets/2026-11-24-xrpl-dex-volume-q3-2026-evernorth-report-445395",
-   "ts": 1795528802.0
-  },
-  {
-   "src": "The Block",
-   "title": "Ledn brings US business onshore with account to hold, swap and borrow against bitcoin",
-   "link": "https://www.theblock.co/news/business/2026-11-24-ledn-launches-us-custody-account-bitcoin-gold-stablecoins-lending-445411",
-   "ts": 1795528800.0
-  },
-  {
-   "src": "The Block",
-   "title": "Neuberger Berman’s HINC fund brings high-yield credit to Aave’s institutional lending platform",
-   "link": "https://www.theblock.co/news/markets/2026-11-24-neuberger-berman-tokenized-hinc-fund-aave-horizon-collateral-445391",
-   "ts": 1795528800.0
-  },
-  {
-   "src": "The Block",
-   "title": "BlackRock opens tokenized money market fund with $100 million in assets to Hong Kong investors",
-   "link": "https://www.theblock.co/news/business/2026-11-24-blackrock-opens-tokenized-money-market-fund-with-100-million-in-assets-to-hong-kong-investors-445524",
-   "ts": 1795526255.0
-  }
- ],
- "last_sent": "2026-11-23"
+ "pool": [],
+ "last_sent": "2026-11-24"
 }
