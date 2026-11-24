@@ -169,6 +169,43 @@
   "https://www.theblock.co/news/business/2026-11-24-ethereum-treasury-firm-btcs-sells-43-8-million-eth-cut-aave-debt-ceo-says-we-do-not-take-this-lightly-445562"
  ],
  "x_last": {},
- "pool": [],
+ "pool": [
+  {
+   "src": "CoinDesk",
+   "title": "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
+   "link": "https://www.coindesk.com/markets/2026/11/24/ai-trade-never-died-traders-see-room-for-market-recovery-despite-bitcoin-s-weakness",
+   "ts": 1795536025.0
+  },
+  {
+   "src": "Cointelegraph",
+   "title": "How South Korea’s proposed 20% cap could change who runs Upbit",
+   "link": "https://cointelegraph.com/news/how-south-koreas-proposed-20-cap-could-change-who-runs-upbit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "ts": 1795538006.0
+  },
+  {
+   "src": "Decrypt",
+   "title": "Europol Traces $28M in Crypto Behind Europe's Illegal Streaming Industry",
+   "link": "https://decrypt.co/383877/europol-traces-28m-in-crypto-behind-europes-illegal-streaming-industry",
+   "ts": 1795536044.0
+  },
+  {
+   "src": "The Block",
+   "title": "Robinhood co-leads $5 million seed round for onchain trading platform Rialto",
+   "link": "https://www.theblock.co/news/deals/2026-11-24-robinhood-onchain-trading-platform-rialto-funding-446030",
+   "ts": 1795539602.0
+  },
+  {
+   "src": "The Block",
+   "title": "Ansem denies involvement in $2.57 million wallet drain; Black Bull creator coin plummets 55%",
+   "link": "https://www.theblock.co/news/defi/2026-11-24-ansem-denies-involvement-2-57-million-wallet-drain-black-bull-creator-coin-plummets-55-445705",
+   "ts": 1795539081.0
+  },
+  {
+   "src": "The Block",
+   "title": "Europol operation involving Binance, Coinbase and Chainalysis traces more than $28.5 million in crypto behind illegal streaming services",
+   "link": "https://www.theblock.co/news/regulation/2026-11-24-europol-operation-binance-coinbase-chainalysis-traces-28-5-million-crypto-illegal-streaming-services-446019",
+   "ts": 1795538733.0
+  }
+ ],
  "last_sent": "2026-11-24"
 }
