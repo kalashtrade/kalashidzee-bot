@@ -316,6 +316,37 @@
   "https://decrypt.co/384053/openai-fixes-chatgpt-billing-error-promises-to-make-it-40-worse"
  ],
  "x_last": {},
- "pool": [],
+ "pool": [
+  {
+   "src": "CoinDesk",
+   "title": "Bitcoin’s dormant supply rises, a behavior seen during previous bear-market bottoming phases",
+   "link": "https://www.coindesk.com/markets/2026/11/26/bitcoin-s-dormant-supply-rises-a-behavior-seen-during-previous-bear-market-bottoming-phases",
+   "ts": 1795711823.0
+  },
+  {
+   "src": "CoinDesk",
+   "title": "Crypto for Advisors: Four questions to ask before trusting a crypto exchange",
+   "link": "https://www.coindesk.com/coindesk-indices/2026/11/26/crypto-for-advisors-four-questions-to-ask-before-trusting-a-crypto-exchange",
+   "ts": 1795707763.0
+  },
+  {
+   "src": "Cointelegraph",
+   "title": "BIS chief Pablo Hernández de Cos set to become next ECB president: FT",
+   "link": "https://cointelegraph.com/news/bis-chief-pablo-hernndez-de-cos-next-ecb-president?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "ts": 1795711244.0
+  },
+  {
+   "src": "Decrypt",
+   "title": "Spain Lets Its Financial Intelligence Unit Freeze Crypto Accounts Without a Court Order",
+   "link": "https://decrypt.co/384063/spain-lets-its-financial-intelligence-unit-freeze-crypto-accounts-without-a-court-order",
+   "ts": 1795711382.0
+  },
+  {
+   "src": "The Block",
+   "title": "JPMorgan says bitcoin ‘capitulation’ signaled by Strategy’s record-low NAV multiple",
+   "link": "https://www.theblock.co/news/markets/2026-11-26-jpmorgan-bitcoin-capitulation-strategy-low-nav-multiple-447007",
+   "ts": 1795709904.0
+  }
+ ],
  "last_sent": "2026-11-26"
 }
