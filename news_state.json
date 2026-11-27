@@ -313,322 +313,62 @@
   "https://decrypt.co/384033/standard-chartereds-zodia-custody-says-hackers-accessed-client-contact-details",
   "https://www.theblock.co/news/ecosystems/2026-11-26-the-time-to-prepare-for-a-cryptographic-breakthrough-is-before-it-happens-zcash-team-urges-faster-deprecation-of-legacy-shielded-pool-447000",
   "https://cointelegraph.com/news/how-eu-brokers-could-lose-access-to-kyrgyz-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-  "https://decrypt.co/384053/openai-fixes-chatgpt-billing-error-promises-to-make-it-40-worse"
+  "https://decrypt.co/384053/openai-fixes-chatgpt-billing-error-promises-to-make-it-40-worse",
+  "https://www.coindesk.com/markets/2026/11/26/bitcoin-s-dormant-supply-rises-a-behavior-seen-during-previous-bear-market-bottoming-phases",
+  "https://www.coindesk.com/coindesk-indices/2026/11/26/crypto-for-advisors-four-questions-to-ask-before-trusting-a-crypto-exchange",
+  "https://cointelegraph.com/news/bis-chief-pablo-hernndez-de-cos-next-ecb-president?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/384063/spain-lets-its-financial-intelligence-unit-freeze-crypto-accounts-without-a-court-order",
+  "https://www.theblock.co/news/markets/2026-11-26-jpmorgan-bitcoin-capitulation-strategy-low-nav-multiple-447007",
+  "https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds",
+  "https://cointelegraph.com/news/spain-moves-grant-financial-watchdog-power-freeze-crypto-accounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery",
+  "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-26-tokenized-anthropic-holders-doubled-in-3-days-446013",
+  "https://decrypt.co/384066/before-the-sell-off-ai-stocks-showed-dot-com-level-bubble-signals-study",
+  "https://cointelegraph.com/news/japan-tighter-oversight-defi-self-custodial-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/news/bnb-chain-details-new-layer-1-trading-private-finance-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/news/uk-wrong-defi-regulation-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/resources/what-is-self-custody-how-to-hold-your-own-crypto-keys",
+  "https://cointelegraph.com/magazine/very-racist-netflix-sbf-series-bitmarts-319m-shortfall-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown",
+  "https://cointelegraph.com/news/privacy-coins-kucoin-drop-monero-grayscale-zcash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/news/ai-driving-flood-of-crypto-bug-reports-now-helping-sort-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://www.theblock.co/newsletters/the-daily/2026-11-26-jpmorgan-bitcoin-capitulation-democrats-sec-crypto-plans-more-news-447025",
+  "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack",
+  "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know",
+  "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://www.theblock.co/news/regulation/2026-11-26-china-japan-south-korea-asean-digital-payments-447029",
+  "https://www.coindesk.com/markets/2026/11/27/ripple-s-lending-plan-moves-closer-to-tapping-xrp-ledger-s-usd950-million-in-stablecoins",
+  "https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why",
+  "https://cointelegraph.com/news/esma-overhaul-eu-mica-crypto-register-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/news/new-york-ag-137b-court-judgment-novatech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051",
+  "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound",
+  "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+  "https://www.coindesk.com/business/2026/11/27/tether-can-freeze-stolen-crypto-in-minutes-getting-it-back-can-take-years",
+  "https://cointelegraph.com/news/bluefin-shut-down-perps-refocus-spot-trading-tokenized-rwas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/384104/ethereum-sets-december-15-date-for-delayed-glamsterdam-testnet-upgrade",
+  "https://www.theblock.co/news/regulation/2026-11-27-bank-of-japan-official-says-stablecoins-need-reserve-rules-to-preserve-singleness-of-money-447059",
+  "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound",
+  "https://www.coindesk.com/tech/2026/11/27/live-news-bitcoin-rebounds-above-usd61-000-as-ai-stocks-lead-premarket-gains",
+  "https://www.coindesk.com/policy/2026/11/27/next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin",
+  "https://www.coindesk.com/markets/2026/11/27/injective-asks-sec-to-allow-order-books-for-tokenized-stock-trading",
+  "https://cointelegraph.com/markets/bitcoin-supply-metric-new-capitulation-signal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/384118/kalshi-courts-small-businesses-with-microinsurance-as-state-crackdowns-bite",
+  "https://www.coindesk.com/daybook-us/2026/11/27/bitcoin-death-cross-is-coming-here-s-what-happened-after-previous-13",
+  "https://cointelegraph.com/news/brazil-b3-stablecoin-tokenization-launch-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/news/austria-supervised-crypto-firms-report-204b-h1-volume?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://www.coindesk.com/business/2026/11/27/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports",
+  "https://cointelegraph.com/news/what-was-coinbase-worth-while-nasdaq-was-closed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://cointelegraph.com/news/binance-ipo-program-regulatory-approval-yi-he?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond",
+  "https://decrypt.co/384121/binance-fully-lifts-withdrawal-suspension-four-weeks-after-6-4b-hack",
+  "https://www.theblock.co/news/ecosystems/2026-11-27-ai-math-breakthroughs-revive-bitcoin-security-fears-but-practical-threat-remains-unproven-k33-447549",
+  "https://www.theblock.co/news/business/2026-11-27-tether-buys-10-million-of-bitdeer-shares-as-stock-hovers-near-all-time-low-447554"
  ],
  "x_last": {},
- "pool": [
-  {
-   "src": "CoinDesk",
-   "title": "Bitcoin’s dormant supply rises, a behavior seen during previous bear-market bottoming phases",
-   "link": "https://www.coindesk.com/markets/2026/11/26/bitcoin-s-dormant-supply-rises-a-behavior-seen-during-previous-bear-market-bottoming-phases",
-   "ts": 1795711823.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Crypto for Advisors: Four questions to ask before trusting a crypto exchange",
-   "link": "https://www.coindesk.com/coindesk-indices/2026/11/26/crypto-for-advisors-four-questions-to-ask-before-trusting-a-crypto-exchange",
-   "ts": 1795707763.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "BIS chief Pablo Hernández de Cos set to become next ECB president: FT",
-   "link": "https://cointelegraph.com/news/bis-chief-pablo-hernndez-de-cos-next-ecb-president?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795711244.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Spain Lets Its Financial Intelligence Unit Freeze Crypto Accounts Without a Court Order",
-   "link": "https://decrypt.co/384063/spain-lets-its-financial-intelligence-unit-freeze-crypto-accounts-without-a-court-order",
-   "ts": 1795711382.0
-  },
-  {
-   "src": "The Block",
-   "title": "JPMorgan says bitcoin ‘capitulation’ signaled by Strategy’s record-low NAV multiple",
-   "link": "https://www.theblock.co/news/markets/2026-11-26-jpmorgan-bitcoin-capitulation-strategy-low-nav-multiple-447007",
-   "ts": 1795709904.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds",
-   "link": "https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds",
-   "ts": 1795714200.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Spain moves to grant financial watchdog power to freeze crypto accounts",
-   "link": "https://cointelegraph.com/news/spain-moves-grant-financial-watchdog-power-freeze-crypto-accounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795717591.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
-   "link": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795714793.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Bitcoin Holds Above $60K as Death Cross Clouds Thanksgiving Recovery",
-   "link": "https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery",
-   "ts": 1795716929.0
-  },
-  {
-   "src": "The Block",
-   "title": "Tokenized Anthropic Holders Doubled in 3 Days",
-   "link": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-26-tokenized-anthropic-holders-doubled-in-3-days-446013",
-   "ts": 1795714320.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Before the Sell-Off, AI Stocks Showed Dot-Com-Level Bubble Signals: Study",
-   "link": "https://decrypt.co/384066/before-the-sell-off-ai-stocks-showed-dot-com-level-bubble-signals-study",
-   "ts": 1795719662.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Japan weighs tighter oversight of DeFi, self-custodial wallets",
-   "link": "https://cointelegraph.com/news/japan-tighter-oversight-defi-self-custodial-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795723518.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "BNB Chain details new layer-1 for trading, private finance and AI",
-   "link": "https://cointelegraph.com/news/bnb-chain-details-new-layer-1-trading-private-finance-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795729363.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Binance completes withdrawal recovery four weeks after $6.3B hack",
-   "link": "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795728827.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "UK is ‘getting it wrong’ on DeFi regulation, says Coinbase",
-   "link": "https://cointelegraph.com/news/uk-wrong-defi-regulation-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795727633.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "What Is Self-Custody? How to Hold Your Own Crypto Keys",
-   "link": "https://decrypt.co/resources/what-is-self-custody-how-to-hold-your-own-crypto-keys",
-   "ts": 1795726863.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "‘Very racist’ Netflix SBF series, BitMart’s $319M shortfall: Asia Express",
-   "link": "https://cointelegraph.com/magazine/very-racist-netflix-sbf-series-bitmarts-319m-shortfall-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795732786.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown",
-   "link": "https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown",
-   "ts": 1795730462.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Privacy coins face diverging fortunes as KuCoin moves to drop Monero",
-   "link": "https://cointelegraph.com/news/privacy-coins-kucoin-drop-monero-grayscale-zcash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795739739.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "AI is driving a flood of crypto bug reports. Now it’s helping sort them",
-   "link": "https://cointelegraph.com/news/ai-driving-flood-of-crypto-bug-reports-now-helping-sort-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795744058.0
-  },
-  {
-   "src": "The Block",
-   "title": "JPMorgan flags bitcoin ‘capitulation,’ Democrats push back on SEC’s crypto plans, and more",
-   "link": "https://www.theblock.co/newsletters/the-daily/2026-11-26-jpmorgan-bitcoin-capitulation-democrats-sec-crypto-plans-more-news-447025",
-   "ts": 1795746000.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
-   "link": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack",
-   "ts": 1795754747.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know",
-   "link": "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know",
-   "ts": 1795753787.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Ethereum devs set Glamsterdam’s Hoodi rollout for mid-December after delays",
-   "link": "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795754856.0
-  },
-  {
-   "src": "The Block",
-   "title": "China, Japan, South Korea and ASEAN to form working group on digital payments, crypto regulation",
-   "link": "https://www.theblock.co/news/regulation/2026-11-26-china-japan-south-korea-asean-digital-payments-447029",
-   "ts": 1795753120.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Ripple's lending plan moves closer to tapping XRP Ledger's $800 million in stablecoins",
-   "link": "https://www.coindesk.com/markets/2026/11/27/ripple-s-lending-plan-moves-closer-to-tapping-xrp-ledger-s-usd950-million-in-stablecoins",
-   "ts": 1795755992.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Japan’s crypto security group taps SEAL to speed up hack response",
-   "link": "https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795756956.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Monero suffers biggest single-day slide in over 5 months. Here’s why",
-   "link": "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why",
-   "ts": 1795764781.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "ESMA to overhaul EU’s MiCA crypto register in 2027",
-   "link": "https://cointelegraph.com/news/esma-overhaul-eu-mica-crypto-register-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795766679.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "New York AG secures $1.37B court judgment against NovaTech founders",
-   "link": "https://cointelegraph.com/news/new-york-ag-137b-court-judgment-novatech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795763984.0
-  },
-  {
-   "src": "The Block",
-   "title": "Ethereum devs schedule Glamsterdam upgrade for Hoodi testnet on Dec. 15",
-   "link": "https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051",
-   "ts": 1795765874.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday’s rebound",
-   "link": "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound",
-   "ts": 1795772995.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Brazil’s stock exchange teams up with major banks to launch real-pegged stablecoin",
-   "link": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
-   "ts": 1795776687.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
-   "link": "https://www.coindesk.com/business/2026/11/27/tether-can-freeze-stolen-crypto-in-minutes-getting-it-back-can-take-years",
-   "ts": 1795773600.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Bluefin to shut down perps, refocus on spot trading and tokenized RWAs",
-   "link": "https://cointelegraph.com/news/bluefin-shut-down-perps-refocus-spot-trading-tokenized-rwas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795775166.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Ethereum Sets December 15 Date for Delayed Glamsterdam Testnet Upgrade",
-   "link": "https://decrypt.co/384104/ethereum-sets-december-15-date-for-delayed-glamsterdam-testnet-upgrade",
-   "ts": 1795774551.0
-  },
-  {
-   "src": "The Block",
-   "title": "Bank of Japan official says stablecoins need reserve rules to preserve ‘singleness of money’",
-   "link": "https://www.theblock.co/news/regulation/2026-11-27-bank-of-japan-official-says-stablecoins-need-reserve-rules-to-preserve-singleness-of-money-447059",
-   "ts": 1795776302.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
-   "link": "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound",
-   "ts": 1795779947.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Live news: Bitcoin rebounds above $61,000 as AI stocks lead premarket gains",
-   "link": "https://www.coindesk.com/tech/2026/11/27/live-news-bitcoin-rebounds-above-usd61-000-as-ai-stocks-lead-premarket-gains",
-   "ts": 1795779277.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
-   "link": "https://www.coindesk.com/policy/2026/11/27/next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin",
-   "ts": 1795778562.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Injective asks SEC to allow order books for tokenized stock trading",
-   "link": "https://www.coindesk.com/markets/2026/11/27/injective-asks-sec-to-allow-order-books-for-tokenized-stock-trading",
-   "ts": 1795777637.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Bitcoin supply metric hits 11-year low as new ‘capitulation’ signal arrives",
-   "link": "https://cointelegraph.com/markets/bitcoin-supply-metric-new-capitulation-signal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795778068.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Kalshi Courts Small Businesses With 'Microinsurance' as State Crackdowns Bite",
-   "link": "https://decrypt.co/384118/kalshi-courts-small-businesses-with-microinsurance-as-state-crackdowns-bite",
-   "ts": 1795778387.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
-   "link": "https://www.coindesk.com/daybook-us/2026/11/27/bitcoin-death-cross-is-coming-here-s-what-happened-after-previous-13",
-   "ts": 1795781767.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Brazil’s stock exchange pushes stablecoin launch back to 2027",
-   "link": "https://cointelegraph.com/news/brazil-b3-stablecoin-tokenization-launch-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795783194.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Austria-supervised crypto firms report 20.4B euros in H1 trading volume",
-   "link": "https://cointelegraph.com/news/austria-supervised-crypto-firms-report-204b-h1-volume?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795782000.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Kalshi turns to small businesses as legal battles threaten forecasts on sports",
-   "link": "https://www.coindesk.com/business/2026/11/27/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports",
-   "ts": 1795785550.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "What was Coinbase worth while Nasdaq was closed?",
-   "link": "https://cointelegraph.com/news/what-was-coinbase-worth-while-nasdaq-was-closed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795790454.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Binance to launch tokenized IPO program after regulatory approval: Yi He",
-   "link": "https://cointelegraph.com/news/binance-ipo-program-regulatory-approval-yi-he?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795787040.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "What's on the Ethereum Roadmap: Glamsterdam, Hegotá and Beyond",
-   "link": "https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond",
-   "ts": 1795787404.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Binance Fully Lifts Withdrawal Suspension Four Weeks After $6.4B Hack",
-   "link": "https://decrypt.co/384121/binance-fully-lifts-withdrawal-suspension-four-weeks-after-6-4b-hack",
-   "ts": 1795785857.0
-  },
-  {
-   "src": "The Block",
-   "title": "AI math breakthroughs revive Bitcoin security fears, but practical threat remains unproven: K33",
-   "link": "https://www.theblock.co/news/ecosystems/2026-11-27-ai-math-breakthroughs-revive-bitcoin-security-fears-but-practical-threat-remains-unproven-k33-447549",
-   "ts": 1795789461.0
-  }
- ],
- "last_sent": "2026-11-26"
+ "pool": [],
+ "last_sent": "2026-11-27"
 }
