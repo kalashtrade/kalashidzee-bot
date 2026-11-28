@@ -366,130 +366,30 @@
   "https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond",
   "https://decrypt.co/384121/binance-fully-lifts-withdrawal-suspension-four-weeks-after-6-4b-hack",
   "https://www.theblock.co/news/ecosystems/2026-11-27-ai-math-breakthroughs-revive-bitcoin-security-fears-but-practical-threat-remains-unproven-k33-447549",
-  "https://www.theblock.co/news/business/2026-11-27-tether-buys-10-million-of-bitdeer-shares-as-stock-hovers-near-all-time-low-447554"
+  "https://www.theblock.co/news/business/2026-11-27-tether-buys-10-million-of-bitdeer-shares-as-stock-hovers-near-all-time-low-447554",
+  "https://cointelegraph.com/markets/bitcoin-price-below-59k-anthropic-tech-stock-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/384138/ai-powered-gta-6-pc-ports-now-have-multiplayer-as-modders-unlock-30-and-60-fps",
+  "https://cointelegraph.com/news/china-march-2027-rollout-blockchain-identity-regulations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/384174/us-air-force-hack-cloud-system-air-defense-munitions-data",
+  "https://decrypt.co/384153/nvidias-blackwell-chips-turn-up-in-china-as-trump-floats-government-stake",
+  "https://decrypt.co/384154/7-billion-bitcoin-options-just-expired-what-it-means",
+  "https://www.theblock.co/news/markets/2026-11-27-cryptoquant-bitcoin-price-recovery-usdt-supply-growth-447560",
+  "https://cointelegraph.com/markets/bitcoin-whales-pile-btc-despite-shrinking-profit-cushion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/384177/bitcoin-4-scary-charts-crypto-winter-bear-market",
+  "https://decrypt.co/384218/could-ai-break-bitcoin-not-yet-research-firm-k33-says",
+  "https://cointelegraph.com/news/franklin-templeton-hype-crypto-index-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims",
+  "https://www.theblock.co/newsletters/the-daily/2026-11-27-bitcoin-recovery-usdt-supply-ai-threat-bitcoin-more-crypto-news-447571",
+  "https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+  "https://cointelegraph.com/news/asean3-agrees-on-initiative-to-explore-crypto-payments-cooperation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://www.coindesk.com/markets/2026/11/28/bitcoin-not-delivering-the-bear-market-has-digital-asset-veteran-questioning-btc-s-value",
+  "https://cointelegraph.com/news/justin-sun-calls-for-trump-family-linked-wlfi-token-to-be-delisted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+  "https://www.coindesk.com/business/2026/11/28/bybit-s-usd1-4-billion-hack-postmortem-is-ready-you-won-t-get-to-see-it",
+  "https://decrypt.co/384126/russia-pigeons-icyborg-drones-you-can-now-hire-them",
+  "https://www.theblock.co/news/business/2026-11-28-cz-says-netflixs-the-altruists-is-basically-defamation-says-he-is-talking-to-lawyers-447599"
  ],
  "x_last": {},
- "pool": [
-  {
-   "src": "Cointelegraph",
-   "title": "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
-   "link": "https://cointelegraph.com/markets/bitcoin-price-below-59k-anthropic-tech-stock-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795798131.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "AI-Powered GTA 6 PC Ports Now Have Multiplayer as Modders Unlock 30 and 60 FPS",
-   "link": "https://decrypt.co/384138/ai-powered-gta-6-pc-ports-now-have-multiplayer-as-modders-unlock-30-and-60-fps",
-   "ts": 1795796500.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "China sets March 2027 rollout for blockchain identity regulations",
-   "link": "https://cointelegraph.com/news/china-march-2027-rollout-blockchain-identity-regulations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795801043.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Hackers Hit US Air Force Cloud System Running Air-Defense and Munitions Data",
-   "link": "https://decrypt.co/384174/us-air-force-hack-cloud-system-air-defense-munitions-data",
-   "ts": 1795801409.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Nvidia's Blackwell Chips Turn Up in China as Trump Floats Government Stake",
-   "link": "https://decrypt.co/384153/nvidias-blackwell-chips-turn-up-in-china-as-trump-floats-government-stake",
-   "ts": 1795799370.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "$7 Billion in Bitcoin Options Just Expired: Here’s What It Means",
-   "link": "https://decrypt.co/384154/7-billion-bitcoin-options-just-expired-what-it-means",
-   "ts": 1795803363.0
-  },
-  {
-   "src": "The Block",
-   "title": "CryptoQuant says bitcoin price recovery needs USDT supply growth",
-   "link": "https://www.theblock.co/news/markets/2026-11-27-cryptoquant-bitcoin-price-recovery-usdt-supply-growth-447560",
-   "ts": 1795803225.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Bitcoin whales pile into BTC despite shrinking profit cushion",
-   "link": "https://cointelegraph.com/markets/bitcoin-whales-pile-btc-despite-shrinking-profit-cushion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795807380.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "4 Scary Bitcoin Charts That Suggest This Bear Market Is Different",
-   "link": "https://decrypt.co/384177/bitcoin-4-scary-charts-crypto-winter-bear-market",
-   "ts": 1795808762.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Could AI Break Bitcoin? Not Yet, Research Firm K33 Says",
-   "link": "https://decrypt.co/384218/could-ai-break-bitcoin-not-yet-research-firm-k33-says",
-   "ts": 1795812362.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Franklin Templeton makes room for HYPE in crypto index ETF",
-   "link": "https://cointelegraph.com/news/franklin-templeton-hype-crypto-index-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795814129.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "OpenAI Turns the Tables on Apple With Its Own Trade-Secret Theft Claims",
-   "link": "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims",
-   "ts": 1795815963.0
-  },
-  {
-   "src": "The Block",
-   "title": "Bitcoin recovery needs USDT supply growth: CryptoQuant, K33 weighs AI threat to Bitcoin, and more",
-   "link": "https://www.theblock.co/newsletters/the-daily/2026-11-27-bitcoin-recovery-usdt-supply-ai-threat-bitcoin-more-crypto-news-447571",
-   "ts": 1795839060.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Binance receives in-principle approval, plans Asia hub in Bhutan",
-   "link": "https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795851780.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Trump-linked crypto token WLFI plunges 50% to record lows",
-   "link": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
-   "ts": 1795858371.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "ASEAN+3 agrees on initiative to explore crypto payments cooperation",
-   "link": "https://cointelegraph.com/news/asean3-agrees-on-initiative-to-explore-crypto-payments-cooperation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795861860.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Bitcoin not delivering: The bear market has digital asset veteran questioning BTC's value",
-   "link": "https://www.coindesk.com/markets/2026/11/28/bitcoin-not-delivering-the-bear-market-has-digital-asset-veteran-questioning-btc-s-value",
-   "ts": 1795870938.0
-  },
-  {
-   "src": "Cointelegraph",
-   "title": "Justin Sun calls for Trump family-linked WLFI token to be delisted",
-   "link": "https://cointelegraph.com/news/justin-sun-calls-for-trump-family-linked-wlfi-token-to-be-delisted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "ts": 1795872480.0
-  },
-  {
-   "src": "CoinDesk",
-   "title": "Bybit’s $1.4 billion hack postmortem is ready. You won’t get to see it.",
-   "link": "https://www.coindesk.com/business/2026/11/28/bybit-s-usd1-4-billion-hack-postmortem-is-ready-you-won-t-get-to-see-it",
-   "ts": 1795874400.0
-  },
-  {
-   "src": "Decrypt",
-   "title": "Russia Is Turning Pigeons Into Cyborg Drones—and You Can Now Hire Them",
-   "link": "https://decrypt.co/384126/russia-pigeons-icyborg-drones-you-can-now-hire-them",
-   "ts": 1795874462.0
-  }
- ],
- "last_sent": "2026-11-27"
+ "pool": [],
+ "last_sent": "2026-11-28"
 }
